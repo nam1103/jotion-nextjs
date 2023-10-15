@@ -71,6 +71,6 @@ export const Cover = ({ url, preview }: CoverImageProps) => {
 	);
 };
 
-Cover.Skeleton = function () {
+Cover.Skeleton = function CoverSkeleton() {
 	return <Skeleton className="w-full h-[20vh]" />;
 };
